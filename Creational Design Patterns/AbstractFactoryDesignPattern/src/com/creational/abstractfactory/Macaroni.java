@@ -10,8 +10,8 @@ public class Macaroni extends Pasta{
 	@Override
 	protected void addSauces() {
 		// TODO Auto-generated method stub
-		System.out.println("Making Macaroni Pasta");
-		//adding Sauces for Macaroni
+		System.out.println("Making Macaroni Pasta in" +super.getStyle()+" style");
+		//adding style for Macaroni Pasta 
 	}
 
 }

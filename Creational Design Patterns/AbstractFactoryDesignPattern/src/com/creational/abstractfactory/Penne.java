@@ -10,7 +10,7 @@ public class Penne extends Pasta {
 	@Override
 	protected void addSauces() {
 		// TODO Auto-generated method stub
-		System.out.println("Making Penne Pasta");
+		System.out.println("Making Penne Pasta in "+super.getStyle()+" style");
 		//adding Sauces for Penne
 	}
 

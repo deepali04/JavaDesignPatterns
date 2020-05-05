@@ -36,6 +36,11 @@ public abstract class Pasta {
 		
 	}
 	
+	@Override
+	  public String toString() {
+	    return "PastaType- "+type + " built in "+style;
+	  }
+	
 	//Subclass level method
 	protected abstract void addSauces();
 	

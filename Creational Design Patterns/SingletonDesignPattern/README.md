@@ -65,3 +65,19 @@ This approach is easy but it has 2 drawbacks i.e.
 
 Consider a scenario if two threads try to create an instance of a singleton class at the same time. In a multi-threaded environment, there is a possibility that separate objects get created, due to different times of accessing the (instance == null) check. This will break the singleton principle. The simplest way of achieving the thread safety in the singleton design pattern is to make the getInstance() method synchronized.
 
+* **Double Check Locking Principle**
+
+The locking mechanism in the singleton design pattern causes the thread to get a lock on the getInstance method only when the instance is null. This prevents the unnecessary synchronization once the instance variable is initialized. Here is an example of a Double Check Locking singleton class.
+
+## Real-time examples
+
+Here represent some significant scenarios where the singleton design pattern is used.
+
+* The singleton pattern is used in the logger classes. These classes provide a global logging access point in all the application components without being necessary to produce an object each time a logging operation is performed.
+
+* The singleton pattern is used to design the classes which provide the configuration settings for an application. This approach provides a global access point and keeps the instance as a cache object.
+
+* The singleton pattern is used to design the application that needs to work with the serial port.
+* The singleton pattern can be used with Abstract Factory, Builder, and Prototype design patterns to have a unique object.
+
+**Note:** If a Singleton class is loaded by two classloaders, two instances of the Singleton class will be created (i.e. one for each classloader).

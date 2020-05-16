@@ -46,3 +46,22 @@ This approach is similar to lazy initialization, but it has a drawback i.e. the 
 * **Bill Pugh Singleton**
 
 Prior to Java 5, Java memory model had many issues and the developers had to use the Bill Pugh Solution for implementing the Single design pattern in their applications. This approach is based on initialization on demand idiom and uses the Inner classes’ concept.
+
+* **Static Initialization**
+
+The implementation of static block initialization is similar to the eager initialization, except that instance of the class is created in a static block that provides an option for the exception handling.
+
+* **Using Enum**
+
+Enum was introduced in Java 5 and provides a thread-safe implementation. The objects returned by Enum are Singleton in nature and therefore can be effectively used for implementing the Singleton design pattern in the multi-threaded environment.
+
+This approach is easy but it has 2 drawbacks i.e.
+
+1. Enum does not support the lazy initialization.
+
+2. Changing the Singleton class to Multi-ton is not possible with Enum.
+
+* **Thread-Safe Singleton**
+
+Consider a scenario if two threads try to create an instance of a singleton class at the same time. In a multi-threaded environment, there is a possibility that separate objects get created, due to different times of accessing the (instance == null) check. This will break the singleton principle. The simplest way of achieving the thread safety in the singleton design pattern is to make the getInstance() method synchronized.
+

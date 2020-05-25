@@ -1,4 +1,4 @@
-## JavaDesignPatterns
+## Java Design Patterns
 Software Design Patterns with real world examples implemented in Java.
 
 ## Introduction 

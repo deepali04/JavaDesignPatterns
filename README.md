@@ -10,11 +10,9 @@ There are mainly three types of design patterns:
 
 ### •	Creational Design Patterns:
 
-These Design Patterns are all about class instantiation or object creation. They make the creation process more adaptable and dynamic. In particular, they can provide a great deal of flexibility about what all objects are created, how those objects are created, and how they are initialized.
-
-Implemented:
+These Design Patterns are all about class instantiation or object creation. They make the creation process more adaptable and dynamic. In particular, they can provide a great deal of flexibility about what all objects are created, how those objects are created, and how they are initialized. Implemented few esign patterns here.
 1. Singleton Design Pattern
-2. Factory design pattern
+2. Factory Design Pattern
 3. Abstract Factory Design Pattern
 
 ### •	Structural Design Patterns:

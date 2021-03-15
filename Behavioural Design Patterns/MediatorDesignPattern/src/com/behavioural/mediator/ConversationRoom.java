@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 
 public class ConversationRoom implements Conversation{
 	
-	DateFormat dateFormat = new SimpleDateFormat("E dd-MM-yyyy hh:mm a");  
+    DateFormat dateFormat = new SimpleDateFormat("E dd-MM-yyyy hh:mm a");  
     Date date = new Date(); 
 
 	@Override

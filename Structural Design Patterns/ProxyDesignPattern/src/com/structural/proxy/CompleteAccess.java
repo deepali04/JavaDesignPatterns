@@ -1,6 +1,5 @@
 package com.structural.proxy;
 
-//
 public class CompleteAccess implements OfficeInternet{
 
 	private String employeeName;

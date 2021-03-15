@@ -6,7 +6,7 @@ __*Define a one to many dependency between objects so that when one object chang
 
 ## UML Diagram:
 
-Click here to see(https://howtodoinjava.com/wp-content/uploads/2019/01/observer-pattern-arch.jpg)
+Click here to see (https://howtodoinjava.com/wp-content/uploads/2019/01/observer-pattern-arch.jpg)
 
 ## Design Participants:
 

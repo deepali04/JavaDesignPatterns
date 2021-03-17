@@ -24,7 +24,9 @@ Structural Design Patterns are all about organizing different classes and object
 
 ### •	Behavioral Design Patterns:
 
-Behavioral Design Patterns are all about identifying common communication patterns between objects and realize these patterns. These patterns abstract an action we want to take on the object or class that takes the action. By changing the object or class, we can change the algorithm used, the objects affected, or the behavior while retaining the same basic interface for client classes.
+Behavioral Design Patterns are all about identifying common communication patterns between objects and realize these patterns. These patterns abstract an action we want to take on the object or class that takes the action. By changing the object or class, we can change the algorithm used, the objects affected, or the behavior while retaining the same basic interface for client classes. Implemented few design patterns here.
+1. Command Design Pattern
+2. Mediator Design pattern
 
 ## Benefits of Software Design Patterns:
 

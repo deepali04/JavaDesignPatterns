@@ -28,6 +28,7 @@ Behavioral Design Patterns are all about identifying common communication patter
 1. Command Design Pattern
 2. Mediator Design pattern
 3. Observer Design pattern
+4. State Design Pattern
 
 ## Benefits of Software Design Patterns:
 

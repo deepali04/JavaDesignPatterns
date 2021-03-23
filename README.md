@@ -18,8 +18,8 @@ These Design Patterns are all about class instantiation or object creation. They
 ### •	Structural Design Patterns:
 
 Structural Design Patterns are all about organizing different classes and objects to form larger structures and provide new functionalities. These patterns show us how to glue different pieces of a system together in a flexible and extensible fashion. These patterns help us guarantee that when one of the parts changes, the entire application structure does not need to change.Implemented few design patterns here.
-1. Adapter Design pattern
-2. Proxy Design pattern
+1. Adapter Design Pattern
+2. Proxy Design Pattern
 3. Composite Design Pattern
 
 ### •	Behavioral Design Patterns:
